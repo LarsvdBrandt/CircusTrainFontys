@@ -1,0 +1,11 @@
+C:\Users\larsv\source\repos\Circustrein\Circustrein\bin\Debug\netcoreapp3.1\Circustrain.exe
+C:\Users\larsv\source\repos\Circustrein\Circustrein\bin\Debug\netcoreapp3.1\Circustrain.deps.json
+C:\Users\larsv\source\repos\Circustrein\Circustrein\bin\Debug\netcoreapp3.1\Circustrain.runtimeconfig.json
+C:\Users\larsv\source\repos\Circustrein\Circustrein\bin\Debug\netcoreapp3.1\Circustrain.runtimeconfig.dev.json
+C:\Users\larsv\source\repos\Circustrein\Circustrein\bin\Debug\netcoreapp3.1\Circustrain.dll
+C:\Users\larsv\source\repos\Circustrein\Circustrein\bin\Debug\netcoreapp3.1\Circustrain.pdb
+C:\Users\larsv\source\repos\Circustrein\Circustrein\obj\Debug\netcoreapp3.1\Circustrain.csprojAssemblyReference.cache
+C:\Users\larsv\source\repos\Circustrein\Circustrein\obj\Debug\netcoreapp3.1\Circustrain.AssemblyInfoInputs.cache
+C:\Users\larsv\source\repos\Circustrein\Circustrein\obj\Debug\netcoreapp3.1\Circustrain.AssemblyInfo.cs
+C:\Users\larsv\source\repos\Circustrein\Circustrein\obj\Debug\netcoreapp3.1\Circustrain.dll
+C:\Users\larsv\source\repos\Circustrein\Circustrein\obj\Debug\netcoreapp3.1\Circustrain.pdb
