@@ -20,7 +20,7 @@ namespace Circustrain
             animals.Add(new Animal(5, "Herbivore", "Elephant"));
 
             Train train = new Train();
-            train.LoadTrain(animals);
+            train.Run(animals);
             WagonsWrite(train);
         }
 
@@ -34,7 +34,7 @@ namespace Circustrain
                 Console.WriteLine("New wagon");
                 foreach (Animal animal in wagon.Animals)
                 {
-                    Console.WriteLine(animal.Food + " " + animal.Size.ToString() + " " + animal.Name.ToString());
+                    Console.WriteLine(animal.Sort + " " + animal.Size.ToString() + " " + animal.Name.ToString());
                 }
             }
             Console.ReadLine();

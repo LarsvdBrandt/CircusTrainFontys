@@ -14,14 +14,14 @@ namespace Circustrain
             _wagons = new List<Wagon>();
         }
 
-        public void LoadTrain(List<Animal> animals)
+        public void Run(List<Animal> animals)
         {
-            int wagonIndex = 0;
+            int wagonSpace = 0;
 
             while (animals.Count != 0)
             {
-                AddWagon(wagonIndex, animals[0]);
-                Wagon wagon = Wagons[wagonIndex];
+                NewWagon(wagonSpace, animals[0]);
+                Wagon wagon = Wagons[wagonSpace];
                 animals.RemoveAt(0);
 
                 for (int i = animals.Count - 1; i >= 0; i--)
@@ -32,11 +32,11 @@ namespace Circustrain
                         animals.Remove(animal);
                     }
                 }
-                wagonIndex += 1;
+                wagonSpace += 1;
             }
         }
 
-        public void AddWagon(int wagonSize, Animal animal)
+        public void NewWagon(int wagonSize, Animal animal)
         {
             _wagons.Add(new Wagon());
 

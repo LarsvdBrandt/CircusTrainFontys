@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\larsv\\source\\repos\\CircusTrainLars\\Circustrain\\CircusTrainTest\\CircusTrainTest.csproj": {}
+    "C:\\Users\\larsv\\source\\repos\\CircusTrainLars\\CircusTrainFontys\\CircusTrainLars\\Circustrain\\CircusTrainTest\\CircusTrainTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\larsv\\source\\repos\\CircusTrainLars\\Circustrain\\CircusTrainTest\\CircusTrainTest.csproj": {
+    "C:\\Users\\larsv\\source\\repos\\CircusTrainLars\\CircusTrainFontys\\CircusTrainLars\\Circustrain\\CircusTrainTest\\CircusTrainTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\larsv\\source\\repos\\CircusTrainLars\\Circustrain\\CircusTrainTest\\CircusTrainTest.csproj",
+        "projectUniqueName": "C:\\Users\\larsv\\source\\repos\\CircusTrainLars\\CircusTrainFontys\\CircusTrainLars\\Circustrain\\CircusTrainTest\\CircusTrainTest.csproj",
         "projectName": "CircusTrainTest",
-        "projectPath": "C:\\Users\\larsv\\source\\repos\\CircusTrainLars\\Circustrain\\CircusTrainTest\\CircusTrainTest.csproj",
+        "projectPath": "C:\\Users\\larsv\\source\\repos\\CircusTrainLars\\CircusTrainFontys\\CircusTrainLars\\Circustrain\\CircusTrainTest\\CircusTrainTest.csproj",
         "packagesPath": "C:\\Users\\larsv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\larsv\\source\\repos\\CircusTrainLars\\Circustrain\\CircusTrainTest\\obj\\",
+        "outputPath": "C:\\Users\\larsv\\source\\repos\\CircusTrainLars\\CircusTrainFontys\\CircusTrainLars\\Circustrain\\CircusTrainTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

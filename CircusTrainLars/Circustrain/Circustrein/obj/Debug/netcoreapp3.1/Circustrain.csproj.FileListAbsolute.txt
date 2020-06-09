@@ -31,3 +31,14 @@ C:\Users\larsv\source\repos\CircusTrainLars\Circustrain\Circustrein\obj\Debug\ne
 C:\Users\larsv\source\repos\CircusTrainLars\Circustrain\Circustrein\obj\Debug\netcoreapp3.1\Circustrain.AssemblyInfo.cs
 C:\Users\larsv\source\repos\CircusTrainLars\Circustrain\Circustrein\obj\Debug\netcoreapp3.1\Circustrain.dll
 C:\Users\larsv\source\repos\CircusTrainLars\Circustrain\Circustrein\obj\Debug\netcoreapp3.1\Circustrain.pdb
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\Circustrein\obj\Debug\netcoreapp3.1\Circustrain.csprojAssemblyReference.cache
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\Circustrein\obj\Debug\netcoreapp3.1\Circustrain.AssemblyInfoInputs.cache
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\Circustrein\obj\Debug\netcoreapp3.1\Circustrain.AssemblyInfo.cs
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\Circustrein\obj\Debug\netcoreapp3.1\Circustrain.dll
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\Circustrein\obj\Debug\netcoreapp3.1\Circustrain.pdb
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\Circustrein\bin\Debug\netcoreapp3.1\Circustrain.exe
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\Circustrein\bin\Debug\netcoreapp3.1\Circustrain.deps.json
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\Circustrein\bin\Debug\netcoreapp3.1\Circustrain.runtimeconfig.json
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\Circustrein\bin\Debug\netcoreapp3.1\Circustrain.runtimeconfig.dev.json
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\Circustrein\bin\Debug\netcoreapp3.1\Circustrain.dll
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\Circustrein\bin\Debug\netcoreapp3.1\Circustrain.pdb
