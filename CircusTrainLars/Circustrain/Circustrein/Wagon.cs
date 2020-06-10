@@ -4,7 +4,8 @@ namespace Circustrain
 {
     public class Wagon
     {
-        private int Size { get; } = 10;
+        //public was private but due the testcases must be made public
+        public int Size { get; } = 10;
         public int UsedSize { get; set; } = 0;
 
         private readonly List<Animal> _animals;
@@ -21,7 +22,8 @@ namespace Circustrain
             else
                 return false;
         }
-        private bool DoesAnimalFit(Animal animal)
+        //public was private but due the testcases must be made public
+        public bool DoesAnimalFit(Animal animal)
         {
             if (UsedSize + (int)animal.AnimalSize <= Size)
                 return true;
