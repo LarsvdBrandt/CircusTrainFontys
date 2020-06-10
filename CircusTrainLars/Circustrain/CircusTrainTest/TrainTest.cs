@@ -11,7 +11,7 @@ namespace CircusTrainTest
             Assert.IsTrue(true);
         }
 
-        public void IsDangerousForMe_TwoCarnivoreSameSize_True()
+        /*public void IsDangerousForMe_TwoCarnivoreSameSize_True()
         {
             //Arrange
             var carnivoreSmall = new Carnivore(Size.Small);
@@ -20,6 +20,6 @@ namespace CircusTrainTest
             var ret = carnivoreSmall.IsDangerousForMe(carnivoreSmallCompare);
             //Assert
             Assert.IsTrue(ret);
-        }
+        }*/
     }
 }

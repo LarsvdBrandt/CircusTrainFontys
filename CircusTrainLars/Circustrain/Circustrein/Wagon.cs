@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Circustrain
 {
@@ -12,21 +10,20 @@ namespace Circustrain
         private readonly List<Animal> _animals;
         public IReadOnlyList<Animal> Animals => _animals.AsReadOnly();
 
-        public bool AddAnimal(Animal animal)
+        public bool AddAnimalToWagon(Animal animal)
         {
             if (DoesAnimalFit(animal) && IsAnimalNotCompatable(animal))
             {
                 _animals.Add(animal);
-                UsedSize += (int)animal.Size;
+                UsedSize += (int)animal.AnimalSize;
                 return true;
             }
             else
                 return false;
         }
-
         private bool DoesAnimalFit(Animal animal)
         {
-            if (UsedSize + (int)animal.Size <= Size)
+            if (UsedSize + (int)animal.AnimalSize <= Size)
                 return true;
             else
                 return false;
@@ -52,11 +49,5 @@ namespace Circustrain
 
             return compatible;
         }
-
-        public IReadOnlyList<Animal> GetAnimals()
-        {
-            return Animals;
-        }
-
     }
 }

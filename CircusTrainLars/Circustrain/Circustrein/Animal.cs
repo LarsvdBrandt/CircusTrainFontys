@@ -1,30 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Circustrain
-{ 
+﻿namespace Circustrain
+{
     public class Animal
     {
-        public int Size { get; }
+        public int AnimalSize { get; }
         public string Sort { get; }
         public string Name { get;  }
 
-        public Animal(int size, string sort, string name)
+        public Animal(int animalSize, string sort, string name)
         {
-            Size = size;
+            AnimalSize = animalSize;
             Sort = sort;
             Name = name;
         }
 
-        public bool IsAnimalCompatable(Animal wagonAnimal)
+        public bool IsAnimalCompatable(Animal animalInWagon)
         {
-            if (wagonAnimal.Sort == "Carnivore" && wagonAnimal.Size >= Size)
+            if (animalInWagon.Sort == "Carnivore" && animalInWagon.AnimalSize >= AnimalSize)
             {
                 return true;
             }
-
-            if (Sort == "Carnivore" && wagonAnimal.Size <= Size)
+            else if (Sort == "Carnivore" && animalInWagon.AnimalSize <= AnimalSize)
             {
                 return true;
             }
@@ -33,6 +28,5 @@ namespace Circustrain
                 return false;
             }
         }
-
     }
 }

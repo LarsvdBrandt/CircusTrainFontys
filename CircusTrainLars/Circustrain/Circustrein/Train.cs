@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Circustrain
 {
@@ -14,53 +12,38 @@ namespace Circustrain
             _wagons = new List<Wagon>();
         }
 
-        public void Run(List<Animal> animals)
+        public void NewWagon(int wagonSize, Animal animal)
         {
-            int wagonSpace = 0;
+            _wagons.Add(new Wagon());
+
+            Wagons[wagonSize].AddAnimalToWagon(animal);
+        }
+
+        public void GetTrain(List<Animal> animals)
+        {
+            int spaceInWagon = 0;
 
             while (animals.Count != 0)
             {
-                NewWagon(wagonSpace, animals[0]);
-                Wagon wagon = Wagons[wagonSpace];
+                NewWagon(spaceInWagon, animals[0]);
+                Wagon wagon = Wagons[spaceInWagon];
                 animals.RemoveAt(0);
 
                 for (int i = animals.Count - 1; i >= 0; i--)
                 {
                     Animal animal = animals[i];
-                    if (wagon.AddAnimal(animal))
+                    if (wagon.AddAnimalToWagon(animal))
                     {
                         animals.Remove(animal);
                     }
                 }
-                wagonSpace += 1;
+                spaceInWagon += 1;
             }
-        }
-
-        public void NewWagon(int wagonSize, Animal animal)
-        {
-            _wagons.Add(new Wagon());
-
-            Wagons[wagonSize].AddAnimal(animal);
         }
 
         public IReadOnlyList<Wagon> GetWagons()
         {
             return Wagons;
-        }
-
-        public IReadOnlyList<Animal> GetAnimals()
-        {
-            List<Animal> animals = new List<Animal>();
-
-            foreach (Wagon wagon in Wagons)
-            {
-                foreach (Animal animal in wagon.GetAnimals())
-                {
-                    animals.Add(animal);
-                }
-            }
-
-            return animals;
         }
     }
 }
