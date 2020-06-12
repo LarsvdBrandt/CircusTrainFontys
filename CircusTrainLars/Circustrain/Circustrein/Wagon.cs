@@ -13,7 +13,7 @@ namespace Circustrain
 
         public bool AddAnimalToWagon(Animal animal)
         {
-            if (DoesAnimalFit(animal) && IsAnimalNotCompatable(animal))
+            if (DoesAnimalFit(animal) && IsAnimalCompatableOrNot(animal))
             {
                 _animals.Add(animal);
                 UsedSize += (int)animal.AnimalSize;
@@ -36,20 +36,21 @@ namespace Circustrain
             _animals = new List<Animal>();
         }
 
-        private bool IsAnimalNotCompatable(Animal animal)
+        //public was private but due the testcases must be made public
+        public bool IsAnimalCompatableOrNot(Animal animal)
         {
-            bool compatible = true;
+            bool isCompatible = true;
 
             foreach (Animal wagonAnimal in Animals)
             {
                 if (animal.IsAnimalCompatable(wagonAnimal))
                 {
-                    compatible = false;
+                    isCompatible = false;
                     break;
                 }
             }
 
-            return compatible;
+            return isCompatible;
         }
     }
 }

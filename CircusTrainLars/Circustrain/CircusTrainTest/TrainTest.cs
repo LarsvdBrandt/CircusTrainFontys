@@ -1,25 +1,23 @@
+using Circustrain;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 
 namespace CircusTrainTest
 {
     [TestClass]
     public class TrainTest
     {
+        //Weet niet hoe ik deze test moet uitvoeren
         [TestMethod]
-        public void TestMethod1()
-        {
-            Assert.IsTrue(true);
-        }
-
-        /*public void IsDangerousForMe_TwoCarnivoreSameSize_True()
+        public void TrainTester()
         {
             //Arrange
-            var carnivoreSmall = new Carnivore(Size.Small);
-            var carnivoreSmallCompare = new Carnivore(Size.Small);
+
             //Act
-            var ret = carnivoreSmall.IsDangerousForMe(carnivoreSmallCompare);
+
             //Assert
-            Assert.IsTrue(ret);
-        }*/
+            Assert.AreEqual(0, 0);
+        }
+
     }
 }

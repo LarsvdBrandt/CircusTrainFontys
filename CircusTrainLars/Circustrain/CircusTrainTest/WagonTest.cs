@@ -13,6 +13,7 @@ namespace CircusTrainTest
             _wagon = new Wagon();
         }
 
+        //WagonSize
         [TestMethod]
         public void Wagon_Can_Be_Constructed_With_Default_Capacity()
         {
@@ -25,6 +26,7 @@ namespace CircusTrainTest
             Assert.AreEqual(10, _wagon.Size);
         }
 
+        //AddAnimalToWagon
         [TestMethod]
         public void When_Animal_Is_Added_UsedSize_Is_Higher()
         {
@@ -40,6 +42,7 @@ namespace CircusTrainTest
             Assert.AreEqual(expectedSize, _wagon.UsedSize);
         }
 
+        //DoesAnimalFit & AddAnimalToWagon
         [TestMethod]
         public void Cant_Add_Animal_To_Wagon_When_UsedSize_Is_Too_Big()
         {
@@ -61,24 +64,19 @@ namespace CircusTrainTest
             Assert.IsFalse(AnimalFits);
         }
 
-
-
-        /*
         [TestMethod]
         public void Cant_Add_Herbivore_With_SameSize_Or_Bigger_Carnivore()
         {
             //Arrange
-
             Animal a = new Animal(5, "Herbivore", "Sheep");
             Animal b = new Animal(5, "Carnivore", "Lion");
-            _wagon.AddAnimalToWagon(a);
 
             //Act
-            _wagon.AddAnimalToWagon(b);
+            _wagon.AddAnimalToWagon(a);
+            bool isCompatible = _wagon.IsAnimalCompatableOrNot(b);
 
             //Assert
-            Assert.IsTrue(expectedSize, w.UsedSize);
-        }*/
-
+            Assert.IsFalse(isCompatible);
+        }
     }
 }
