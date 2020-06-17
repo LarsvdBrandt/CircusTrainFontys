@@ -11,12 +11,17 @@ namespace CircusTrainTest
         [TestMethod]
         public void TrainTester()
         {
-            //Arrange
+            // Arrange
+            List<Animal> animals = new List<Animal>();
+            animals.Add(new Animal(Size.Small, Sort.Carnivore, "Lion"));
 
-            //Act
+            // Act
+            Train train = new Train();
+            train.GetTrain(animals);
+            IReadOnlyList<Animal> loadedAnimals = train.GetListOfAnimals();
 
-            //Assert
-            Assert.AreEqual(0, 0);
+            // Assert
+            Assert.IsTrue(loadedAnimals[0].Name == "Lion");
         }
 
     }

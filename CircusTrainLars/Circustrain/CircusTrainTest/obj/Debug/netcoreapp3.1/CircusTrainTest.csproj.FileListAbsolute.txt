@@ -185,3 +185,4 @@ C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Ci
 C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\CircusTrainTest\obj\Debug\netcoreapp3.1\CircusTrainTest.csproj.CopyComplete
 C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\CircusTrainTest\obj\Debug\netcoreapp3.1\CircusTrainTest.dll
 C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\CircusTrainTest\obj\Debug\netcoreapp3.1\CircusTrainTest.pdb
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\CircusTrainTest\obj\Debug\netcoreapp3.1\CircusTrainTest.genruntimeconfig.cache

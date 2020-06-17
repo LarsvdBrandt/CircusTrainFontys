@@ -1,0 +1,10 @@
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\b\Circustrain\Debug\netcoreapp3.1\Circustrain.exe
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\b\Circustrain\Debug\netcoreapp3.1\Circustrain.deps.json
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\b\Circustrain\Debug\netcoreapp3.1\Circustrain.runtimeconfig.json
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\b\Circustrain\Debug\netcoreapp3.1\Circustrain.runtimeconfig.dev.json
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\b\Circustrain\Debug\netcoreapp3.1\Circustrain.dll
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\i\Circustrain\Debug\netcoreapp3.1\Circustrain.AssemblyInfoInputs.cache
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\i\Circustrain\Debug\netcoreapp3.1\Circustrain.AssemblyInfo.cs
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\i\Circustrain\Debug\netcoreapp3.1\Circustrain.csproj.CopyComplete
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\i\Circustrain\Debug\netcoreapp3.1\Circustrain.dll
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\i\Circustrain\Debug\netcoreapp3.1\Circustrain.genruntimeconfig.cache

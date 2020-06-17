@@ -31,9 +31,9 @@ namespace CircusTrainTest
         public void When_Animal_Is_Added_UsedSize_Is_Higher()
         {
             //Arrange
-            Animal a = new Animal(5, "Herbivore", "Sheep");
+            Animal a = new Animal(Size.Large, Sort.Herbivore, "Giraffe");
             int wagonSize = _wagon.UsedSize;
-            int expectedSize = wagonSize + a.AnimalSize;
+            int expectedSize = wagonSize + 5;
 
             //Act
             _wagon.AddAnimalToWagon(a);
@@ -47,9 +47,9 @@ namespace CircusTrainTest
         public void Cant_Add_Animal_To_Wagon_When_UsedSize_Is_Too_Big()
         {
             //Arrange
-            Animal a = new Animal(5, "Herbivore", "Sheep");
-            Animal b = new Animal(5, "Herbivore", "Cow");
-            Animal c = new Animal(1, "Herbivore", "Rabbit");
+            Animal a = new Animal(Size.Large, Sort.Herbivore, "Giraffe");
+            Animal b = new Animal(Size.Large, Sort.Herbivore, "Cow");
+            Animal c = new Animal(Size.Small, Sort.Herbivore, "Rabbit");
             bool AnimalFits = false;
 
             //Act
@@ -68,8 +68,8 @@ namespace CircusTrainTest
         public void Cant_Add_Herbivore_With_SameSize_Or_Bigger_Carnivore()
         {
             //Arrange
-            Animal a = new Animal(5, "Herbivore", "Sheep");
-            Animal b = new Animal(5, "Carnivore", "Lion");
+            Animal a = new Animal(Size.Large, Sort.Herbivore, "Giraffe");
+            Animal b = new Animal(Size.Large, Sort.Carnivore, "Lion");
 
             //Act
             _wagon.AddAnimalToWagon(a);

@@ -18,9 +18,8 @@ namespace CircusTrainTest
         public void Cant_Add_Herbivore_With_SameSize_Carnivore()
         {
             //Arrange
-
-            Animal a = new Animal(5, "Carnivore", "Lion");
-            Animal b = new Animal(5, "Herbivore", "Lion");
+            Animal a = new Animal(Size.Large, Sort.Carnivore, "Lion");
+            Animal b = new Animal(Size.Large, Sort.Herbivore, "Elephant");
 
             //Act
             bool animalIsNotCompatable = a.IsAnimalCompatable(b);
@@ -34,8 +33,8 @@ namespace CircusTrainTest
         {
             //Arrange
 
-            Animal a = new Animal(5, "Carnivore", "Lion");
-            Animal b = new Animal(2, "Herbivore", "Rabbit");
+            Animal a = new Animal(Size.Large, Sort.Carnivore, "Lion");
+            Animal b = new Animal(Size.Small, Sort.Herbivore, "Rabbit");
 
             //Act
             bool animalIsNotCompatable = a.IsAnimalCompatable(b);
@@ -48,9 +47,8 @@ namespace CircusTrainTest
         public void Can_Add_Herbivore_With_SmallerSize_Carnivore()
         {
             //Arrange
-
-            Animal a = new Animal(2, "Carnivore", "snake");
-            Animal b = new Animal(5, "Herbivore", "Cow");
+            Animal a = new Animal(Size.Large, Sort.Herbivore, "Cow");
+            Animal b = new Animal(Size.Small, Sort.Herbivore, "snake");
 
             //Act
             bool animalIsNotCompatable = a.IsAnimalCompatable(b);
@@ -63,9 +61,8 @@ namespace CircusTrainTest
         public void Can_Add_Herbivore_With_BiggerSize_Herbivore()
         {
             //Arrange
-
-            Animal a = new Animal(5, "Herbivore", "Giraffe");
-            Animal b = new Animal(5, "Herbivore", "Cow");
+            Animal a = new Animal(Size.Large, Sort.Herbivore, "Giraffe");
+            Animal b = new Animal(Size.Large, Sort.Herbivore, "Cow");
 
             //Act
             bool animalIsNotCompatable = a.IsAnimalCompatable(b);

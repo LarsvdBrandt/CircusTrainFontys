@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace Circustrain
 {
     public class Wagon
     {
-        //public was private but due the testcases must be made public
         public int Size { get; } = 10;
-        public int UsedSize { get; set; } = 0;
+        public int UsedSize { get; private set; } = 0;
 
         private readonly List<Animal> _animals;
         public IReadOnlyList<Animal> Animals => _animals.AsReadOnly();
@@ -22,7 +22,7 @@ namespace Circustrain
             else
                 return false;
         }
-        //public was private but due the testcases must be made public
+
         public bool DoesAnimalFit(Animal animal)
         {
             if (UsedSize + (int)animal.AnimalSize <= Size)
@@ -36,7 +36,6 @@ namespace Circustrain
             _animals = new List<Animal>();
         }
 
-        //public was private but due the testcases must be made public
         public bool IsAnimalCompatableOrNot(Animal animal)
         {
             bool isCompatible = true;
@@ -51,6 +50,11 @@ namespace Circustrain
             }
 
             return isCompatible;
+        }
+
+        public IReadOnlyList<Animal> GetAnimals()
+        {
+            return Animals;
         }
     }
 }

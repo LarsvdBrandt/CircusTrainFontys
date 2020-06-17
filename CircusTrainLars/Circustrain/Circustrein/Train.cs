@@ -12,7 +12,7 @@ namespace Circustrain
             _wagons = new List<Wagon>();
         }
 
-        public void NewWagon(int wagonSize, Animal animal)
+        private void NewWagon(int wagonSize, Animal animal)
         {
             _wagons.Add(new Wagon());
 
@@ -32,7 +32,7 @@ namespace Circustrain
                 for (int i = animals.Count - 1; i >= 0; i--)
                 {
                     Animal animal = animals[i];
-                    if (wagon.AddAnimalToWagon(animal))
+                    if (wagon.AddAnimalToWagon(animal) == true)
                     {
                         animals.Remove(animal);
                     }
@@ -44,6 +44,21 @@ namespace Circustrain
         public IReadOnlyList<Wagon> GetWagons()
         {
             return Wagons;
+        }
+
+        public IReadOnlyList<Animal> GetListOfAnimals()
+        {
+            List<Animal> animals = new List<Animal>();
+
+            foreach (Wagon wagon in Wagons)
+            {
+                foreach (Animal animal in wagon.GetAnimals())
+                {
+                    animals.Add(animal);
+                }
+            }
+
+            return animals;
         }
     }
 }

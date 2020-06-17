@@ -42,3 +42,4 @@ C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Ci
 C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\Circustrein\bin\Debug\netcoreapp3.1\Circustrain.runtimeconfig.dev.json
 C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\Circustrein\bin\Debug\netcoreapp3.1\Circustrain.dll
 C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\Circustrein\bin\Debug\netcoreapp3.1\Circustrain.pdb
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\Circustrein\obj\Debug\netcoreapp3.1\Circustrain.genruntimeconfig.cache

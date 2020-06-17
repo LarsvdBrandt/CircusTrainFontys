@@ -1,0 +1,14 @@
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\b\CircusTrainTest\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\b\CircusTrainTest\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\b\CircusTrainTest\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\b\CircusTrainTest\Debug\netcoreapp3.1\Circustrain.exe
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\b\CircusTrainTest\Debug\netcoreapp3.1\CircusTrainTest.deps.json
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\b\CircusTrainTest\Debug\netcoreapp3.1\CircusTrainTest.runtimeconfig.json
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\b\CircusTrainTest\Debug\netcoreapp3.1\CircusTrainTest.runtimeconfig.dev.json
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\b\CircusTrainTest\Debug\netcoreapp3.1\CircusTrainTest.dll
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\i\CircusTrainTest\Debug\netcoreapp3.1\CircusTrainTest.AssemblyInfoInputs.cache
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\i\CircusTrainTest\Debug\netcoreapp3.1\CircusTrainTest.AssemblyInfo.cs
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\i\CircusTrainTest\Debug\netcoreapp3.1\CircusTrainTest.csproj.CopyComplete
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\i\CircusTrainTest\Debug\netcoreapp3.1\CircusTrainTest.dll
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\i\CircusTrainTest\Debug\netcoreapp3.1\CircusTrainTest.genruntimeconfig.cache
+C:\Users\larsv\source\repos\CircusTrainLars\CircusTrainFontys\CircusTrainLars\Circustrain\.vs\Circustrein\v16\lut\0\i\CircusTrainTest\Debug\netcoreapp3.1\CircusTrainTest.csprojAssemblyReference.cache
