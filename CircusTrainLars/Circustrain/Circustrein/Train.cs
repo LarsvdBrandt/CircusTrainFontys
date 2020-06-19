@@ -41,12 +41,12 @@ namespace Circustrain
             }
         }
 
-        public IReadOnlyList<Wagon> GetWagons()
+        public IReadOnlyList<Wagon> WagonList()
         {
             return Wagons;
         }
 
-        public IReadOnlyList<Animal> GetListOfAnimals()
+        public IReadOnlyList<Animal> AnimalList()
         {
             List<Animal> animals = new List<Animal>();
 

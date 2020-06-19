@@ -7,7 +7,6 @@ namespace CircusTrainTest
     [TestClass]
     public class TrainTest
     {
-        //Weet niet hoe ik deze test moet uitvoeren
         [TestMethod]
         public void TrainTester()
         {
@@ -18,7 +17,7 @@ namespace CircusTrainTest
             // Act
             Train train = new Train();
             train.GetTrain(animals);
-            IReadOnlyList<Animal> loadedAnimals = train.GetListOfAnimals();
+            IReadOnlyList<Animal> loadedAnimals = train.AnimalList();
 
             // Assert
             Assert.IsTrue(loadedAnimals[0].Name == "Lion");

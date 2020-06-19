@@ -18,6 +18,8 @@ namespace Circustrain
             animals.Add(new Animal(Size.Large, Sort.Carnivore, "Lion"));
             animals.Add(new Animal(Size.Middle, Sort.Herbivore, "Goat"));
             animals.Add(new Animal(Size.Large, Sort.Herbivore, "Elephant"));
+            animals.Add(new Animal(Size.Large, Sort.Carnivore, "Cheeta"));
+            animals.Add(new Animal(Size.Large, Sort.Carnivore, "T-rex"));
 
             Train train = new Train();
             train.GetTrain(animals);
@@ -26,7 +28,7 @@ namespace Circustrain
 
         public static void WriteWagons(Train train)
         {
-            IReadOnlyList<Wagon> wagons = train.GetWagons();
+            IReadOnlyList<Wagon> wagons = train.WagonList();
 
             foreach (Wagon wagon in wagons)
             {
